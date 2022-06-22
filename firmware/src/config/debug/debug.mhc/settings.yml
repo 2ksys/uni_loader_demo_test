@@ -1,0 +1,14 @@
+configName: debug
+folderName: UniLoader.Demo.Test
+format_version: v1.0
+frameworkPath: ..\..\Harmony3
+processor: ATSAMC21J18A
+projectName: UniLoader.Demo.Test
+settings:
+  PackageFilter: bootloader;bootloader_apps_can;bootloader_apps_uart;bsp;classb_sam_e5x_d5x;core;core_apps_sam_c20_c21;core_apps_sam_ha1;core_apps_sam_l21;core_apps_sam_l22;crypto;csp;csp_apps_sam_c20_c21;csp_apps_sam_ha1;csp_apps_sam_l21;csp_apps_sam_l22;dev_packs;harmony-services;mc_apps_sam_c2x;motor_control;net;quick_docs;reference_apps;usb;x2c
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAMC21_DFP\3.5.95\samc21\atdf\ATSAMC21J18A.atdf
